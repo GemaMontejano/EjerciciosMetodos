@@ -1,0 +1,5 @@
+//2. Existen dos arrays, cada uno con 5 elementos, generar un nuevo array con la unión de ambos elementos, (Ejemplo: [1,2,3] unión [1,2,4] = [1,1,2,2,3,4])
+let numeros1 =[2,5,4,8,1]
+let numeros2 =[15,22,76,34,9]
+const numerosConcatenados = numeros1.concat (numeros2)
+console.log( numerosConcatenados)
