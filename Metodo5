@@ -1,0 +1,5 @@
+//5. Pedimos al usuario 5 valores que guardaremos en un array, 
+//después extraeremos el primer elemento y lo mostraremos al usuario.
+let usuario = prompt("dime cinco numeros separados por comas")
+const primer = usuario[0]
+console.log(primer)
