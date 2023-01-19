@@ -1,0 +1,12 @@
+//6. El usuario ingresa dos conjuntos de números separados por coma, 
+//el programa debe determinar si ambos conjuntos tienen la misma cantidad de números.
+const cadena1 = prompt("escribe un conjunto de números separados por comas")
+const cadena2 = prompt("escribe otro conjunto)")
+const array1 = cadena1.split(",")
+const array2 = cadena2.split(",")
+if (array1.length === array2.length) {
+    console.log("Tus dos cadenas tienen el mismo número de valores")
+}
+else {
+    console.log("Tus dos cadenas tienen distinto número de valores")
+}
