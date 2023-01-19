@@ -1,0 +1,8 @@
+//3. Crear una función que reciba un array y devuelva otro ordenado. 
+//La función tendrá dos parámetros el array que recibe y otro parámetro para determinar orden del array devuelto.
+const numeros= [15,83,12]
+numeros.sort (function(a,b)
+{
+    return a-b})
+    
+console.log (numeros)
