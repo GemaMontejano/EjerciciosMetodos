@@ -1,0 +1,21 @@
+//7. El usuario ingresa dos conjuntos de números separados por coma, si ambos conjuntos tienen la misma cantidad de elementos mostrar un arreglo que contenga la suma de cada elemento. 
+//(Ejemplo: [1,2,3] + [2,3,4] = [3,5,7])
+let cadena1 = prompt("Escribe un conjunto de números separados por comas")
+let cadena2 = prompt("Escribe otro conjunto")
+const array1 = cadena1.split(",")
+const array2 = cadena2.split(",")
+const array3 = []
+console.log(array1)
+console.log(array2)
+if (array1.length === array2.length) {
+    console.log("La suma de tus elementos es:" + array3)
+    for (let i = 0; i < array1.length; i++) {
+        array3.push(array1[i] + array2[i])
+    }
+
+}
+else {
+    console.log("tus conjuntos no son iguales y no se pueden sumar")
+}
+
+console.log(array3)
